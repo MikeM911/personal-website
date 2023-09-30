@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="skills.css" />
     <link rel="stylesheet" href="particles.css" />
     <title>Michael Metry</title>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </head>
 
   <body>
@@ -351,7 +350,8 @@
     <script src="script.js"></script>
     <script src="index.js"></script>
 
-    <script> type ="text/javascript">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
       function sendEmail() {
         var emailInput = document.getElementById("email");
         var email = emailInput.value;
@@ -365,7 +365,7 @@
         }
 
         Email.send({
-          SecureToken: "5510bd08-5c52-4633-aaec-f151c225c833",
+          SecureToken: "2fc188cc-d86c-4802-b22c-1c162077c653",
           To: "michaelmetry2023@gmail.com",
           From: "michaelmetry2023@gmail.com",
           Subject: document.getElementById("subject").value,
